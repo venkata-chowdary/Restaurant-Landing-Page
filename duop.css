@@ -1,0 +1,30 @@
+.testimonials h3, .testimonials h3 span{
+    font-size: 54px;
+    font-weight: 500;
+    color: #37373f;
+    font-family: "Amatic SC", sans-serif;
+    margin: 10px 0 40px;
+}
+
+.testimonials h3 span{
+    color: #ce1212;
+}
+
+
+.testimonial img{
+    width: 400px;
+}
+
+
+.testimonials h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+
+.contact h3{
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}

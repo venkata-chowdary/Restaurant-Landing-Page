@@ -1,0 +1,204 @@
+@media(max-width:992px){
+
+    /*Nav Bar*/
+    #click{
+        display: none;
+    }
+
+    nav .menu-btn i{
+        display: block;
+    }
+
+    nav button{
+        display: none;
+    }
+     nav ul{
+        position: fixed;
+        top: 90px;
+        right: -100%;
+        height: fit-content;
+        width: 90%;
+        background-color: #fff;
+        display: block;
+        text-align: center;
+        transition: 0.3s all ease;
+     }
+
+     #click:checked ~ ul{
+        right: 0;
+     }
+
+     nav ul li{
+        margin: 25px 00;
+     }
+
+     nav ul li a{
+        font-size: 20px;
+     }
+
+     nav ul li a:hover{
+        color: gray;
+    }
+
+
+    .hero{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .hero-info{
+        width: 80%;
+        margin-bottom :40px ;
+    }
+    .hero img{
+        width: 100%;
+        padding: 5% 10%;
+
+    }
+    .hero-subheading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-subheading button{
+        margin-bottom: 30px;
+    }
+
+    .hero-subheading a{
+        margin-right: 25px;
+    }
+
+    /*About*/
+    .about-section{
+        margin: 0;
+        padding: 10% 5%;
+        width: 100%;
+    }
+
+    .about-right-text{
+        margin-top: 30px;   
+        padding: 3% ; 
+        text-align: left;
+    }
+    .about-content img{
+        padding: 0;
+        width: 100%;
+
+    }
+
+    /*Why Section*/
+    .sub-block{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+    }
+    .sub-block .block{
+        width: 100%;
+    }
+
+    /*Statistics*/
+    .statistics h2,p{
+        transform: scale(0.8);
+    }
+
+    .statistics{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .sta{
+        margin-bottom:10px ;
+        width: 100%;
+    }
+    /*Menu*/
+    .menu{
+        margin: 70px 0;
+    }
+
+    .menu h3{
+        margin: 10px 0 10px;
+    }
+
+    /*Events*/
+    .events{
+        padding: 40px 5%;
+    }
+    .events h3{
+
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    /*chefs*/
+
+    .chefs-list{
+        flex-wrap: wrap;
+    }
+
+    .chef img{
+        width: 100%;
+    }
+
+    .reserve img{
+        display: none;
+    }
+
+    .reserve input{
+        width: 90%;
+    }
+    .reserve textarea{
+        width: 91%;
+    }
+
+    .reserve-group .book-table{
+        margin-bottom: 30px;
+    }
+
+    /*gallery*/
+    .gallery-cor{
+        width: 100%;
+    }
+
+    /*contact*/
+    .contact{
+        width: 100%;
+    }
+
+    .contact i{
+        transform: scale(0.8);
+
+    }
+    /*footer*/
+
+    .details{
+        width: 100%;
+        margin:0 0 30px 6%;
+    }
+
+    .follow-us{
+        margin: 0 0 30px 14%;
+    }
+}
+
+
+
+
+.emp-header{
+    position: relative;
+}
+.emp-header:hover .team-contact{
+    height: 2rem;
+}
+
+.emp-header .team-contact{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    overflow: hidden;
+    transition: 0.5s ease;
+    height: 0px;
+}
